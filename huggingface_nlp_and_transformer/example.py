@@ -5,8 +5,8 @@ import sh
 import torch as th
 import pytorch_lightning as pl
 
-import nlp
-import transformers
+import nlp           # hugginface/nlp
+import transformers  # hugginface/transformers
 
 flags.DEFINE_boolean('debug', False, '')
 flags.DEFINE_integer('epochs', 10, '')
